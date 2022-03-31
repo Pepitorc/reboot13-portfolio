@@ -92,6 +92,11 @@
 .togglemenu {
     display: none;
 }
+.togglemenu svg{
+    color: #000;
+    fill: #000;
+    stroke: #000;
+}
 @media screen and (max-width: 1050px) {
     .navbar-links_container{
         display: none;
