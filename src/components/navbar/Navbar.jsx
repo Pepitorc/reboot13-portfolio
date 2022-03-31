@@ -22,7 +22,7 @@ const Navbar = () => {
       <div className='navbar-links'>
 
         <div className='navbar-links_logo'>
-        <h1 className='primary-color'>{reboot13}</h1>
+        <h1 className='primary-color'><a href="https://www.linkedin.com/in/reboot13/?originalSubdomain=in" target="_blank" className='primary-color'>{reboot13}</a></h1>
         </div>
 
         <div className="navbar-links_container">

@@ -17,7 +17,7 @@ const About = () => {
                 <p>Hello, My name is Krutik Raut AKA reboot13. <br />
                 I am a CSE  Undergraduate at Parul University. <br />
                 I'm currently learning UI/UX development. Checkout my projects on github.<br />
-               <span className='primary-color'>@reboot13-git</span> </p>
+               <span className='primary-color'><a href="https://www.linkedin.com/in/reboot13/?originalSubdomain=in" className='primary-color' target="_blank" >@reboot13-git</a></span> </p>
             </div>
 
         </div>

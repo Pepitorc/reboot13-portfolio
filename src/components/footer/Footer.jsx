@@ -6,7 +6,7 @@ const Footer = () => {
     <>
     <div className="footer">
     <p>
-            Designed by <a href="#">&nbsp;Krutik Raut&nbsp;</a> and Coded with ❤ by <a href="#">&nbsp;Christ Tailor</a>
+            Designed by <a href="https://www.linkedin.com/in/reboot13/?originalSubdomain=in" target="_blank">&nbsp;Krutik Raut&nbsp;</a> and Coded with ❤ by <a href="https://www.linkedin.com/in/christ-tailor-00a5301ba/" target="_blank">&nbsp;Christ Tailor</a>
         </p>
     </div>
 
