@@ -1,6 +1,7 @@
 .footer{
-    padding: 2rem;
+    margin: 2rem 0;
     display: flex;
     justify-content: center;
     font-size: .8rem;
+    text-align: center;
 }

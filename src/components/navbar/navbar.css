@@ -75,7 +75,17 @@
     flex-direction: column;
     padding: 2rem;
     border-radius: 5px;
-    box-shadow: 0 0 5 rgba(0, 0 , 0, 0.2);
+    margin-bottom: 1rem;
+}
+.navbar-menu-container_links {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: all 3s ease;
+    justify-content: center;
+}
+.navbar-menu-container_links p{
+    text-align: center;
 }
 .navbar-menu-container_links p a {
     color: white;
@@ -83,10 +93,6 @@
 
 .navbar-menu-container p{
     margin: 1rem 0;
-}
-
-.navbar-menu-container_links-sign{
-    display: none;
 }
 
 .togglemenu {
@@ -124,8 +130,6 @@
     .navbar-menu-container{
         top: 20px;
     }
-    .navbar-menu-container_links-sign{
-        display: block;
-    }
+
     
 }

@@ -25,6 +25,7 @@
 }
 .box span{
     transition: all 0.2s linear 0s;
+    display: flex;
 }
 .box span svg{
     fill: var(--primary-color);

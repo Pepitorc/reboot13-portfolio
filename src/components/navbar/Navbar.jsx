@@ -12,6 +12,9 @@ const Menu = () => (
 )
 const Navbar = () => {
   const reboot13 = "</reboot13>"
+  const transition = () => {
+    "transition: all 3s ease;"
+  }
   const [toggleMenu , setToggleMenu] = useState(false)
   return (
     <>
@@ -28,7 +31,7 @@ const Navbar = () => {
         <div className="togglemenu">
         {toggleMenu
             ? <RiCloseLine color="#fff" className={"none"}  size={27} onClick={() => setToggleMenu(false)} />
-            : <RiMenu3Line color="#fff" className={"none"} size={27} onClick={() => setToggleMenu(true)} />
+            : <RiMenu3Line color="#fff" className={"none"} size={27}  onClick={() => setToggleMenu(true)} />
             }
         </div>
       </div>

@@ -19,11 +19,11 @@ const Contact = () => {
             <form action="#" className='form'>
                 <div className="name">
                     <h5>Name</h5>
-                    <input type="text" name="name" placeholder='Your Name' />
+                    <input type="text" name="name"  />
                 </div>
                 <div className="email">
                     <h5>Email</h5>
-                    <input type="text" name="email" placeholder='Your Email' />
+                    <input type="text" name="email"  />
                 </div>
                 <div className="message">
                     <h5>Message</h5>

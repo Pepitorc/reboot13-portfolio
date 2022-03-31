@@ -9,6 +9,7 @@
     width: 100%;
     padding: var(--lg-pd);
 }
+
 @media screen and (max-width: 1024px) {
     #root{
         width: 100%;
