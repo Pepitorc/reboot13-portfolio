@@ -1,0 +1,116 @@
+.contact{
+    background: var(--primary-color);
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+.contact .leftside{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    overflow: hidden;
+}
+.contact .leftside h3{
+    color: #fff;
+    font-weight: 800;
+    font-size: 2rem;
+}
+.contact .leftside p{
+    color: #fff;
+    font-size: 1rem;
+}
+.contact .leftside img{
+    width: 20rem;
+}
+
+
+
+/* Right Side */
+.contact .rightside {
+    width: 50%;
+
+}
+.contact .rightside .form{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    justify-content: center;
+}
+.name h5, .email h5, .message h5 {
+    color: #fff;
+}
+ input, textarea{
+    background: rgba(255, 255, 255, 0.5);
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    padding: 0.5rem 0rem;
+    width: 100%;
+    outline: none;
+}
+
+
+@media screen and (max-width: 908px) {
+    .contact {
+        padding: 1.5rem;
+    }
+    .contact .leftside h3 {
+        font-size: 1.5rem;
+    }
+    .contact .leftside p {
+        font-size: .8rem;
+    }
+    .contact .leftside img {
+        width: 15rem;
+    }
+    .submit-btn {
+        padding: 0.5rem 2rem;
+    }
+
+}
+@media screen and (max-width: 776px) {
+    .contact {
+        padding: 1.5rem;
+    }
+    .contact .leftside h3 {
+        font-size: 1.5rem;
+    }
+    .contact .leftside p {
+        font-size: .8rem;
+    }
+    .contact .leftside img {
+        width: 15rem;
+    }
+    .submit-btn {
+        padding: 0.5rem 2rem;
+    }
+
+
+
+    /*  */
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact .leftside {
+        text-align: center;
+        align-items: center;
+    }
+    .contact .leftside p{
+        display: none;
+    }
+    .contact .rightside {
+        width: 100%;
+    }
+    .submit-btn {
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 394px) {
+  
+    .contact .leftside img {
+        width: 12rem;
+    }
+}

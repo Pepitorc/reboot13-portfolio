@@ -1,0 +1,97 @@
+.portfolio{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* padding: var(--lg-pd); */
+    background: var(--light-color);
+}
+
+.portfolio-content{
+    background: var(--light-color);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.portfolio-left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    gap: 2rem;
+}
+.btn-primary a{
+    color: #fff;
+}
+
+.potfolio-right img{
+    width: 29vw;
+    min-width: 25vw;
+    /* max-width: 25vw; */
+}
+
+
+@media screen and (max-width: 1384px) {
+    .portfolio-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .portfolio-left {
+        padding-top: 2rem;
+        align-items: center;
+    }
+    .heading{
+        font-size: small;
+    }
+    .buttons {
+        display: flex;
+        gap: 1rem;
+        font-size: small;
+    }
+}
+
+/*  GOTTA HAVE TO FIGURE OUT */
+/* @media screen and (max-width: 1024px) {
+    .portfolio{
+        width: 100%;
+        padding: var(--md-pd);
+        margin: 1rem 0;
+    }
+}
+@media screen and (max-width: 690px) {
+    .portfolio{
+        width: 100%;
+        padding: var(--sm-pd);
+        margin: 1rem 0;
+    }
+    .btn, .btn-primary{
+        padding: 1rem 2rem;
+    }
+
+} */
+/*  GOTTA HAVE TO FIGURE OUT */
+
+
+@media screen and (max-width: 400px) {
+    .heading {
+        font-size: xx-small;
+    }
+    .buttons {
+        font-size: xx-small;
+    }
+    .potfolio-right img {
+        width: 40vw;
+        min-width: 25vw;
+    }
+    .btn, .btn-primary {
+        padding: 0.5rem 1.5rem;
+    }
+    .potfolio-right img {
+        width: 35vw;
+        min-width: 25vw;
+    }
+}

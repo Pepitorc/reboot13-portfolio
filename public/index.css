@@ -1,0 +1,26 @@
+:root{
+    --lg-pd: 0 10rem;
+    --md-pd: 0 5rem;
+    --sm-pd: 0 3rem;
+    --primary-color: #5E3AEE;
+    --light-color: #F0F0F5;
+}
+#root{
+    width: 100%;
+    padding: var(--lg-pd);
+}
+@media screen and (max-width: 1024px) {
+    #root{
+        width: 100%;
+        padding: var(--md-pd);
+        margin: 1rem 0;
+    }
+}
+@media screen and (max-width: 690px) {
+    #root{
+        width: 100%;
+        padding: var(--sm-pd);
+        margin: 1rem 0;
+    }
+
+}

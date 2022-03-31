@@ -1,0 +1,84 @@
+.skills{
+    padding-top: 2rem;
+}
+.skills .heading{
+    font-size: 2rem;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem 10rem;
+    justify-content: center;
+}
+.box{
+    padding: 2rem;
+    border: 2px solid black;
+    transition: all 0.2s linear 0s;
+    background: #0F1221;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.box span{
+    transition: all 0.2s linear 0s;
+}
+.box span svg{
+    fill: var(--primary-color);
+    fill: #fff;
+    width: 100%;
+    height: 4rem;
+}
+.box span svg path{
+    fill: var(--primary-color);
+    fill: #fff;
+}
+.box h5{
+    opacity: 0;
+}
+.box h5{
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 500;
+    position: absolute;
+    transition: all 0.2s linear 0s;
+    text-align: center;
+    line-height: 1.5rem;
+    padding: 0px 10px;
+}
+.box:hover{
+    border-radius: 50%;
+    transition: all 0.2s linear 0s;
+    border: 3px solid var(--primary-color);
+}
+
+
+@media screen and (max-width: 1271px){
+    .boxes {
+        padding: 2rem 2rem;
+    }
+    .box {
+        padding: 1rem;
+    }
+}
+@media screen and (max-width: 660px){
+    .boxes {
+        padding: 2rem 0rem;
+    }
+    .box {
+        padding: 1rem;
+    }
+    .box span {
+        transition: all 0.2s linear 0s;
+        width: 2rem;
+    }
+    .box span svg {
+        height: 2rem;
+    }
+    .box h5 {
+        font-size: .6rem;
+    }
+}
