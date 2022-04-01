@@ -1,5 +1,7 @@
 .skills{
     padding-top: 2rem;
+    max-width: 1500px;
+
 }
 .skills .heading{
     font-size: 2rem;

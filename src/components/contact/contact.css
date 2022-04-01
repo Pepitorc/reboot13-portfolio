@@ -2,6 +2,7 @@
     background: var(--primary-color);
     padding: 2rem;
     display: grid;
+    max-width: 1500px;
     grid-template-columns: 45% 55%;
 }
 .contact .leftside{

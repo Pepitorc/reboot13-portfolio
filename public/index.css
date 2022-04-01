@@ -5,10 +5,14 @@
     --primary-color: #5E3AEE;
     --light-color: #F0F0F5;
 }
+#reboot13{
+    display: flex;
+    justify-content: center;
+}
 #root{
-    width: 100%;
     padding: var(--lg-pd);
 }
+
 
 @media screen and (max-width: 1024px) {
     #root{

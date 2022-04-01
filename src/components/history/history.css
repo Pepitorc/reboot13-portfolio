@@ -6,6 +6,8 @@
     border-bottom: 3px solid #F0F0F5;
     margin-top: 2rem;
     padding: 2rem;
+    max-width: 1500px;
+
 }
 .history__content{
     text-align: center;
